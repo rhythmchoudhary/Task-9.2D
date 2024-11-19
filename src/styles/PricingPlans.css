@@ -1,0 +1,74 @@
+/* PricingPlans.css */
+.pricing-plans {
+  padding: 60px 20px;
+  background: #f9f9f9; /* Light background for a clean look */
+  color: #333; /* Darker text for readability */
+}
+
+.plan-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjusted for better responsiveness */
+  gap: 30px;
+  max-width: 1100px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.plan {
+  background: #ffffff; /* Pure white background for minimalism */
+  border: 1px solid #e0e0e0; /* Soft border for distinction */
+  border-radius: 12px;
+  padding: 30px 25px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan:hover {
+  transform: translateY(-8px); /* Lift effect on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15); /* Enhanced shadow */
+  border-color: #ddd; /* Slightly darker border on hover */
+}
+
+.plan h2 {
+  font-size: 22px;
+  margin-bottom: 18px;
+  font-weight: 600; /* Softer boldness */
+  color: #444; /* Muted dark text */
+}
+
+.plan button {
+  background: #4caf50; /* Green for a positive action */
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 8px; /* Subtle rounding */
+  font-weight: 500;
+  font-size: 14px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.plan button:hover {
+  background-color: #43a047; /* Slightly darker green on hover */
+  box-shadow: 0 3px 6px rgba(67, 160, 71, 0.3); /* Subtle hover shadow */
+}
+
+.plan ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.plan ul li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.plan ul li::before {
+  content: "✔";
+  color: #4caf50; /* Green checkmark */
+  margin-right: 10px;
+}

@@ -1,0 +1,69 @@
+/* Container for Questions */
+.find-questions-container {
+  padding: 40px 20px;
+  background-color: #f9f9f9; /* Soft neutral background for better focus */
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Question List */
+.question-list {
+  list-style: none;
+  padding: 0;
+  max-width: 700px; /* Reduced width for a more compact look */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between question cards */
+}
+
+/* Question Card */
+.question-card {
+  padding: 24px;
+  background-color: #ffffff; /* Clean white background for content focus */
+  border-radius: 12px; /* Slightly larger radius for a modern feel */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+
+/* Filter Bar */
+.filter-bar {
+  max-width: 700px; /* Matches question list width for consistency */
+  margin: 0 auto 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Added spacing for better structure */
+}
+
+.filter-bar input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px; /* Clean, modern input design */
+  border: 1px solid #ddd; /* Subtle border for a refined look */
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.filter-bar input:focus {
+  border-color: #3f51b5; /* Highlighted border on focus */
+  box-shadow: 0 0 6px rgba(63, 81, 181, 0.2); /* Subtle glow for focus */
+  outline: none;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .find-questions-container {
+    padding: 20px;
+  }
+
+  .question-card {
+    padding: 20px;
+  }
+
+  .filter-bar input {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

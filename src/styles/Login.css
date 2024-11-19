@@ -1,0 +1,86 @@
+/* Login Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9; /* Neutral and soft background */
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Login Form */
+.login-form {
+  background-color: #ffffff;
+  padding: 32px;
+  border-radius: 10px; /* Slightly rounded for a modern feel */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Softer shadow for depth */
+  text-align: center;
+  width: 100%;
+  max-width: 360px; /* Optimized for smaller screens */
+}
+
+.login-form h2 {
+  margin-bottom: 18px;
+  color: #2c3e50; /* Darker shade for better contrast */
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Labels */
+.login-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  color: #555;
+  text-align: left;
+}
+
+/* Inputs */
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd; /* Subtle border for clean look */
+  font-size: 14px;
+}
+
+.login-form input:focus {
+  border-color: #3f51b5; /* Highlighted border */
+  outline: none;
+  box-shadow: 0 0 6px rgba(63, 81, 181, 0.3); /* Subtle glow */
+}
+
+/* Button */
+.login-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #3f51b5; /* Consistent primary color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.login-form button:hover {
+  background-color: #283593; /* Darker shade on hover */
+  transform: translateY(-1px); /* Subtle lift effect */
+}
+
+/* Sign-up Link */
+.sign-up-link {
+  margin-top: 12px;
+  display: block;
+  color: #3f51b5;
+  font-size: 13px;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.sign-up-link:hover {
+  color: #283593; /* Darker link color on hover */
+}

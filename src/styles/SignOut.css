@@ -1,0 +1,23 @@
+/* Signout Container Styling */
+.signout-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fafafa; /* Light neutral background for better readability */
+  margin: 0;
+}
+
+/* Signout Button Styling */
+.signout-button {
+  background-color: #d9534f; /* Subtle red for a professional tone */
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 4px; /* Slightly rounded corners for a modern look */
+  font-size: 16px; /* Larger, more legible text */
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s; 
+}
